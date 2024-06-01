@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs'
 import Parser from 'rss-parser'
-import { WEBSITE } from './constants.js'
+import { WEBSITE,NUMBER_OF,PLACEHOLDERS } from './constants.js'
 
 const parser = new Parser()
 
@@ -12,7 +12,7 @@ const getLatestProjects = () =>
 
 
 
-(async () => {
+;(async () => {
   
     const [template, articles, projects] = await Promise.all([
       fs.readFile('./src/README.md.tpl', { encoding: 'utf-8' }),
@@ -37,6 +37,5 @@ const getLatestProjects = () =>
     .replace(PLACEHOLDERS.LATEST_ARTICLES, latestArticlesMarkdown)
     .replace(PLACEHOLDERS.LATEST_PROJECTS, latestProjectsMarkdown)
 
-  
     await fs.writeFile('README.md', newMarkdown)
   })()
