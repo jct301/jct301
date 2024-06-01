@@ -3,16 +3,13 @@ name: Update README.md
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
-  
   schedule:
     - cron: "0 */4 * * *"
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
