@@ -28,4 +28,4 @@ jobs:
       - run: git config user.email jctr.301@gmail.com
       - run: git add README.md
       - run: git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
-      - run: git push origin master
+      - run: git push origin main
