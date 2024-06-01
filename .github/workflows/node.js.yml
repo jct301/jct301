@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: npm install
-      - run: npm update-readme
+      - run: npm run update-readme
       # git
       - run: git config user.name jct301
       - run: git config user.email jctr.301@gmail.com
