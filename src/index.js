@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs'
 import Parser from 'rss-parser'
-import { WEBSITE } from './constants'
+import { WEBSITE } from './constants.js'
 
 const parser = new Parser()
 
