@@ -1,34 +1,34 @@
 {
-  "name": "jct301",
-  "version": "0.1.0",
+  "author": "Jean Carlos Tomichá Ressa <jeancarlos.ingenieria@gmail.com> (https://jeancarlos.dev)",
+  "bugs": {
+    "url": "https://github.com/jct301/jct301/issues"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
   "description": "jeancarlos README GitHub profile",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "update-readme": "node src/index.js"
+  "devDependencies": {
+    "standard": "^17.1.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jct301/jct301.git"
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
   },
+  "homepage": "https://github.com/jct301/jct301#readme",
   "keywords": [
     "readme",
     "github profile",
     "github readme"
   ],
-  "author": "Jean Carlos Tomicha Ressa <jeancarlos.ingenieria@gmail.com> (https://jeancarlos.dev)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jct301/jct301/issues"
+  "main": "index.js",
+  "name": "jct301",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jct301/jct301.git"
   },
-  "homepage": "https://github.com/jct301/jct301#readme",
-  "dependencies": {
-    "rss-parser": "^3.13.0"
+  "scripts": {
+    "update-readme": "node src/index.js"
   },
-  "eslintConfig": {
-    "extends": "./node_modules/standard/eslintrc.json"
-  },
-  "devDependencies": {
-    "standard": "^17.1.0"
-  }
+  "type": "module",
+  "version": "0.1.0"
 }
