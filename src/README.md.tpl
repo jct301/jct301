@@ -84,5 +84,5 @@ I'm an electrical engineer, with +4 years of experience developing projects, fon
 ## Latest articles
 %{{latest_articles}}%
 
-## Latest articles
+## Latest projects
 %{{latest_projects}}%
