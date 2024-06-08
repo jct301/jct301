@@ -13,7 +13,7 @@ I'm an electrical engineer, with +4 years of experience developing projects, fon
     </a>
 </div>
 
-`jeancarlos.ingenieria@gmail.com`
+``` jeancarlos.ingenieria@gmail.com ```
 
 ## Languages and tools
 
@@ -82,9 +82,7 @@ I'm an electrical engineer, with +4 years of experience developing projects, fon
 <span><img width="20" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/a57a85ba-e2dd-4036-85b6-7e1532391627" alt="Arduino" title="Arduino"/></span>
 
 ## Latest articles
-
-- [Cálculo de circuitos eléctricos](https://jeancarlos-dev.vercel.app/blog/01-astro-sphere-file-structure/)
+- [Cálculo de circuitos eléctricos](https://jeancarlos-dev.vercel.app/articulos/01-astro-sphere-file-structure/)
 
 ## Latest articles
-
-- [Project One](https://jeancarlos-dev.vercel.app/projects/project-1/)
+- [Project One](https://jeancarlos-dev.vercel.app/proyectos/project-1/)
