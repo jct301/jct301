@@ -13,9 +13,7 @@ I'm an electrical engineer, with +4 years of experience developing projects, fon
     </a>
 </div>
 
-``` txt
-jeancarlos.ingenieria@gmail.com
-```
+``` jeancarlos.ingenieria@gmail.com ```
 
 ## Languages and tools
 

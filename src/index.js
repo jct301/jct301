@@ -5,11 +5,11 @@ import { NUMBER_OF, PLACEHOLDERS, WEBSITE } from './constants.js'
 const parser = new Parser()
 
 const getLatestArticlesFromBlog = () => {
-  return parser.parseURL(`${WEBSITE}/rss.xml`).then((data) => data.items.filter(({ link }) => link.split('/')[3] === 'blog'
+  return parser.parseURL(`${WEBSITE}/rss.xml`).then((data) => data.items.filter(({ link }) => link.split('/')[3] === 'articulos'
   ))
 }
 const getLatestProjects = () => {
-  return parser.parseURL(`${WEBSITE}/rss.xml`).then((data) => data.items.filter(({ link }) => link.split('/')[3] === 'projects'))
+  return parser.parseURL(`${WEBSITE}/rss.xml`).then((data) => data.items.filter(({ link }) => link.split('/')[3] === 'proyectos'))
 }
 
 ;(async () => {
