@@ -85,4 +85,4 @@ I'm an electrical engineer, with +4 years of experience developing projects, fon
 - [Cálculo de circuitos eléctricos](https://jeancarlos-dev.vercel.app/articulos/01-astro-sphere-file-structure/)
 
 ## Latest projects
-- [Project One](https://jeancarlos-dev.vercel.app/proyectos/project-1/)
+- [Project One](https://jeancarlos-dev.vercel.app/proyectos/expoagro/)
